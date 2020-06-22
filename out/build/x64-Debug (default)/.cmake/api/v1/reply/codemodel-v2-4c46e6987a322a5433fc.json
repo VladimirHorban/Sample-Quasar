@@ -1,0 +1,227 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						7
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "Quasar",
+					"childIndexes" : 
+					[
+						2,
+						6
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "Quasar",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "Quasar/GraphicCore",
+					"childIndexes" : 
+					[
+						3,
+						4,
+						5
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "Quasar/GraphicCore"
+				},
+				{
+					"build" : "Quasar/GraphicCore/VulkanCore",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "Quasar/GraphicCore/VulkanCore",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "Quasar/GraphicCore/ThirdParty",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "Quasar/GraphicCore/ThirdParty"
+				},
+				{
+					"build" : "Quasar/GraphicCore/SPIRV-Tools",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 3,
+					"source" : "Quasar/GraphicCore/SPIRV-Tools",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "Quasar/API",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "Quasar/API"
+				},
+				{
+					"build" : "Assets",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Assets"
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						7
+					],
+					"name" : "SampleQuasar",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2,
+						3
+					],
+					"directoryIndexes" : 
+					[
+						1,
+						2,
+						4,
+						6
+					],
+					"name" : "Quasar",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "VulkanCore",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "SPIRV-TOOLS",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "Quasar::@3c33efb715e14021392d",
+					"jsonFile" : "target-Quasar-Debug-9cd16731314bebff56be.json",
+					"name" : "Quasar",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "SPIRV-TOOLS::@41ea588bdc063db02ae1",
+					"jsonFile" : "target-SPIRV-TOOLS-Debug-9ebaf83d49e37ee8d980.json",
+					"name" : "SPIRV-TOOLS",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SampleQuasar::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SampleQuasar-Debug-cdf82ec6d35be4c6496d.json",
+					"name" : "SampleQuasar",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "VulkanCore::@8fef89a26d6a2d12e3dc",
+					"jsonFile" : "target-VulkanCore-Debug-10063cb0f078fd7c0eaf.json",
+					"name" : "VulkanCore",
+					"projectIndex" : 2
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "E:/VSProjects/SampleQuasar/out/build/x64-Debug (default)",
+		"source" : "E:/VSProjects/SampleQuasar"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}
