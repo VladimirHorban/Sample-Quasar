@@ -1,2 +1,2 @@
 # Sample-Quasar
-Sample 
+Sample creates triangle
